@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello World!!!!!'));
-app.get('/test', (req, res) => res.send('Hello World!!!'));
-app.get('/test2', (req, res) => res.send('Hello World!!!'));
+app.get('/', (req, res) => res.send('Zaki'));
+app.get('/test', (req, res) => res.send('Puguh'));
+app.get('/test2', (req, res) => res.send('Bonta'));
 
 module.exports = app;
