@@ -18,7 +18,7 @@ describe("GET /", function() {
     it("it should get hello world!", function(done) {
         request(app)
             .get("/")
-            .expect('Hello World!!!!!')
+            .expect('Zaki')
             .end(function(err, res){
                 if (err) done(err);
                 done();
@@ -38,7 +38,7 @@ describe("GET /", function() {
     it("it should test has hello world", function(done) {
         request(app)
             .get("/test")
-            .expect('Hello World!!!')
+            .expect('Puguh')
             .end(function(err, res){
                 if (err) done(err);
                 done();
@@ -58,7 +58,7 @@ describe("GET /", function() {
     it("it should test has hello world", function(done) {
         request(app)
             .get("/test2")
-            .expect('Hello World!!!')
+            .expect('Bonta')
             .end(function(err, res){
                 if (err) done(err);
                 done();
